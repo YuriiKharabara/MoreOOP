@@ -21,5 +21,12 @@ public class Knight extends Character {
         c.setPower(c.getPower()-decrease);
         //decrease number of hp of the enemy by random number which will be in the range of his power
     }
+    @Override
+    public String toString() {
+        return "knight{" +
+                "hp=" + hp +
+                ", power=" + power +
+                '}';
+    }
 }
 

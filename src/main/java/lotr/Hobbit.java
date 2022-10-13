@@ -13,4 +13,11 @@ public class Hobbit extends Character {
     public void kick(Character c){
         toCry();
     }
+    @Override
+    public String toString() {
+        return "Hobbit{" +
+                "hp=" + hp +
+                ", power=" + power +
+                '}';
+    }
 }

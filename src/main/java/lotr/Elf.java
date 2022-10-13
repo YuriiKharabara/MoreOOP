@@ -15,4 +15,11 @@ public class Elf extends Character {
 
         //kill everybody weaker than him, otherwise decrease the power of character by 1
     }
+    @Override
+    public String toString() {
+        return "Elf{" +
+                "hp=" + hp +
+                ", power=" + power +
+                '}';
+    }
 }
