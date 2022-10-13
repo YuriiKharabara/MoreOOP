@@ -5,9 +5,11 @@ import java.util.Random;
 public class Knight extends Character {
     public Knight(){
         super(10, 10);
+
         Random random = new Random();
-        int power_ = random.nextInt(2, 12);
-        int hp_ = random.nextInt(2, 12);
+        int power_ = random.nextInt(12)+2;
+        int hp_ = random.nextInt(12)+2;
+
         setHp(hp_);
         setPower(power_);
 

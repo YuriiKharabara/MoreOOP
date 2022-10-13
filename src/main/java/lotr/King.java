@@ -9,8 +9,8 @@ public class King extends Character{
     public King(){
         super(10, 10);
         Random random = new Random();
-        int power_ = random.nextInt(5, 15);
-        int hp_ = random.nextInt(5, 15);
+        int power_ = random.nextInt(10)+5;
+        int hp_ = random.nextInt(10)+5;
         setHp(hp_);
         setPower(power_);
 
